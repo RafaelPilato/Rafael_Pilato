@@ -1,3 +1,16 @@
+<!-- As alterações que fiz foi na minha página do trabalho anterior, visto isto separei está minha pagina e a trousse aqui como index.
+
+A primerira alteração que fiz, foi criar um menu na parte superior do site, com o intuito de quano alguns dos botões serem acionados, o site irá rolar automaticamente até a area selecionada pelo botão. 
+Usado algumas funções para isto: 
+- Função 1: Obtém a distância do topo de uma seção com base no valor do atributo href do link. Retorna a distância do topo do elemento referenciado pelo id.
+- Função 2: Realiza a rolagem suave na janela do navegador para uma determinada distância do topo. O parâmetro behavior: "smooth" cria uma animação suave durante a rolagem.
+- Função 3:  chamada quando um link do menu é clicado. Calcula a distância do topo da seção relacionada ao link e chama a função chamando a função 2, para rolar até essa posição.
+- Laço de repetição foreach: Para adicionar um ouvinte de eventos de click ao menu, quando acionado faz a chamada da função 2 para realizar a rolagem suave.
+
+Usado também um if, else if, e else para a exibição de uma mensade de "bom dia", "boa tarde" ou "boa moite", localizada no canto inferior direiro da tela, dependendo do horário atual para exibir a mensagem.
+
+Utilizado também um laço de repetição juntamente com CSS no JS para que a mensagem exibida no inferior da tela, possa ficar mudando de cor.-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
